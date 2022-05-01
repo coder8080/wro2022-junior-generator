@@ -1,0 +1,31 @@
+.homepage {
+  background-color: hsl(219, 4%, 4%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  canvas {
+    border-radius: 5px;
+    box-shadow: 0 0 30px hsl(219, 69%, 56%);
+
+    @media (orientation: landscape) {
+      --width: 70vw;
+      width: var(--width);
+      height: calc(var(--width) * 9 / 19);
+      margin-bottom: 10px;
+    }
+
+    @media (orientation: portrait) {
+      --width: calc(90vh - 20px);
+      --height: calc(var(--width) * 9 / 19);
+      width: var(--width);
+      height: var(--height);
+      transform: rotate(-90deg);
+      margin-bottom: calc(var(--height) * 19 / 9 / 4 + 20px);
+      margin-top: calc(var(--height) * 19 / 9 / 4 + 20px);
+    }
+  }
+}

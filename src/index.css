@@ -7,6 +7,13 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+*:hover,
+*:active,
+*:focus {
+  outline: none !important;
 }
 
 body,

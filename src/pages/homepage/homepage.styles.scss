@@ -1,6 +1,5 @@
 .homepage {
-  background-color: hsl(219, 4%, 4%);
-  height: 100%;
+  height: calc(100% - var(--header-height));
   width: 100%;
   display: flex;
   justify-content: center;
@@ -19,7 +18,7 @@
     }
 
     @media (orientation: portrait) {
-      --width: calc(90vh - 20px);
+      --width: calc(90vh - 20px - var(--header-height));
       --height: calc(var(--width) * 9 / 19);
       width: var(--width);
       height: var(--height);

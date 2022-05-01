@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/wro2022-junior-generator/static/css/main.24c785f6.css",
-    "main.js": "/wro2022-junior-generator/static/js/main.b46551e7.js",
-    "static/media/field.png": "/wro2022-junior-generator/static/media/field.5f4049bc076291d0721d.png",
+    "main.css": "/wro2022-junior-generator/static/css/main.09eb9d14.css",
+    "main.js": "/wro2022-junior-generator/static/js/main.d705ab1c.js",
+    "static/media/field.png": "/wro2022-junior-generator/static/media/field.a87cda563678410cbbe2.png",
+    "static/media/remixicon.svg?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/wro-logo.png": "/wro2022-junior-generator/static/media/wro-logo.2ea870aba285060f359e.png",
     "index.html": "/wro2022-junior-generator/index.html",
-    "main.24c785f6.css.map": "/wro2022-junior-generator/static/css/main.24c785f6.css.map",
-    "main.b46551e7.js.map": "/wro2022-junior-generator/static/js/main.b46551e7.js.map"
+    "main.09eb9d14.css.map": "/wro2022-junior-generator/static/css/main.09eb9d14.css.map",
+    "main.d705ab1c.js.map": "/wro2022-junior-generator/static/js/main.d705ab1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.24c785f6.css",
-    "static/js/main.b46551e7.js"
+    "static/css/main.09eb9d14.css",
+    "static/js/main.d705ab1c.js"
   ]
 }

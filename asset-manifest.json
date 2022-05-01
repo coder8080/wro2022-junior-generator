@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wro2022-junior-generator/static/css/main.09eb9d14.css",
+    "main.css": "/wro2022-junior-generator/static/css/main.6995292d.css",
     "main.js": "/wro2022-junior-generator/static/js/main.d705ab1c.js",
     "static/media/field.png": "/wro2022-junior-generator/static/media/field.a87cda563678410cbbe2.png",
     "static/media/remixicon.svg?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -10,11 +10,11 @@
     "static/media/remixicon.woff2?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/wro-logo.png": "/wro2022-junior-generator/static/media/wro-logo.2ea870aba285060f359e.png",
     "index.html": "/wro2022-junior-generator/index.html",
-    "main.09eb9d14.css.map": "/wro2022-junior-generator/static/css/main.09eb9d14.css.map",
+    "main.6995292d.css.map": "/wro2022-junior-generator/static/css/main.6995292d.css.map",
     "main.d705ab1c.js.map": "/wro2022-junior-generator/static/js/main.d705ab1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.09eb9d14.css",
+    "static/css/main.6995292d.css",
     "static/js/main.d705ab1c.js"
   ]
 }

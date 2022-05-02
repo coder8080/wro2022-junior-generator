@@ -18,6 +18,7 @@ const HomePage = () => {
     blue: [null, null],
     white: [null, null],
   })
+
   const generateField = () => {
     let availableElements = [
       'fire',
@@ -50,20 +51,6 @@ const HomePage = () => {
   const CanvasRef = useRef()
 
   useEffect(() => {
-    // Fix canvas DPI
-    const canvas = CanvasRef.current
-    let dpi = window.devicePixelRatio
-    let style_height = +getComputedStyle(canvas)
-      .getPropertyValue('height')
-      .slice(0, -2)
-    let style_width = +getComputedStyle(canvas)
-      .getPropertyValue('width')
-      .slice(0, -2)
-    canvas.setAttribute('height', style_height * dpi)
-    canvas.setAttribute('width', style_width * dpi)
-  }, [])
-
-  useEffect(() => {
     // Draw background
 
     const canvas = CanvasRef.current
@@ -72,6 +59,17 @@ const HomePage = () => {
     const fieldImage = new Image()
     fieldImage.src = FieldImageSource
     fieldImage.addEventListener('load', function () {
+      // Fix canvas DPI
+      let dpi = window.devicePixelRatio
+      let style_height = +getComputedStyle(canvas)
+        .getPropertyValue('height')
+        .slice(0, -2)
+      let style_width = +getComputedStyle(canvas)
+        .getPropertyValue('width')
+        .slice(0, -2)
+      canvas.setAttribute('height', style_height * dpi)
+      canvas.setAttribute('width', style_width * dpi)
+
       ctx.drawImage(fieldImage, 0, 0, canvas.width, canvas.height)
     })
   }, [])

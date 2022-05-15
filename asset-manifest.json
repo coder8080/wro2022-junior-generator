@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/wro2022-junior-generator/static/css/main.6995292d.css",
-    "main.js": "/wro2022-junior-generator/static/js/main.d705ab1c.js",
-    "static/media/field.png": "/wro2022-junior-generator/static/media/field.a87cda563678410cbbe2.png",
+    "main.js": "/wro2022-junior-generator/static/js/main.a582587f.js",
     "static/media/remixicon.svg?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/field.png": "/wro2022-junior-generator/static/media/field.841295092476f0ff0273.png",
     "static/media/remixicon.eot?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/remixicon.woff?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/remixicon.woff2?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/wro-logo.png": "/wro2022-junior-generator/static/media/wro-logo.2ea870aba285060f359e.png",
+    "service-worker.js": "/wro2022-junior-generator/service-worker.js",
     "index.html": "/wro2022-junior-generator/index.html",
     "main.6995292d.css.map": "/wro2022-junior-generator/static/css/main.6995292d.css.map",
-    "main.d705ab1c.js.map": "/wro2022-junior-generator/static/js/main.d705ab1c.js.map"
+    "main.a582587f.js.map": "/wro2022-junior-generator/static/js/main.a582587f.js.map"
   },
   "entrypoints": [
     "static/css/main.6995292d.css",
-    "static/js/main.d705ab1c.js"
+    "static/js/main.a582587f.js"
   ]
 }

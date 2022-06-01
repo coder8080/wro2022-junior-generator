@@ -6,7 +6,7 @@
   background-color: hsl(219, 69%, 56%);
   cursor: pointer;
   border-radius: 0.5em;
-  transition: 0.1s;
+  transition: transform 0.1s, background-color 0.3s;
   color: white;
 
   &:hover {

@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState, useEffect, useCallback } from 'react'
 import FieldImageSource from '../../assets/field.png'
 import ELEMENT_POSITIONS from './field.data'
 
@@ -18,6 +18,7 @@ const HomePage = () => {
     blue: [null, null],
     white: [null, null],
   })
+  const [isRotated, setIsRotated] = useState(false)
 
   const generateField = () => {
     let availableElements = [
@@ -107,12 +108,19 @@ const HomePage = () => {
     }
   }, [field])
 
+  const toggleRotated = useCallback(() => setIsRotated((prev) => !prev), [])
+
   return (
     <div className="homepage">
-      <canvas ref={CanvasRef}>
+      <canvas ref={CanvasRef} className={`${isRotated ? 'rotated' : ''}`}>
         Ваш браузер не поддерживает отрисовку. Обновите его
       </canvas>
-      <Button onClick={generateField}>Generate</Button>
+      <div className="button-container">
+        <Button onClick={generateField}>Generate</Button>
+        <Button className="rotate-button" onClick={toggleRotated}>
+          <i className="ri-repeat-line"></i>
+        </Button>
+      </div>
     </div>
   )
 }

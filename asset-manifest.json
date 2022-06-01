@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wro2022-junior-generator/static/css/main.6995292d.css",
-    "main.js": "/wro2022-junior-generator/static/js/main.a582587f.js",
+    "main.css": "/wro2022-junior-generator/static/css/main.0014d8e9.css",
+    "main.js": "/wro2022-junior-generator/static/js/main.9dc6a029.js",
     "static/media/remixicon.svg?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/field.png": "/wro2022-junior-generator/static/media/field.841295092476f0ff0273.png",
     "static/media/remixicon.eot?t=1590207869815": "/wro2022-junior-generator/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -11,11 +11,11 @@
     "static/media/wro-logo.png": "/wro2022-junior-generator/static/media/wro-logo.2ea870aba285060f359e.png",
     "service-worker.js": "/wro2022-junior-generator/service-worker.js",
     "index.html": "/wro2022-junior-generator/index.html",
-    "main.6995292d.css.map": "/wro2022-junior-generator/static/css/main.6995292d.css.map",
-    "main.a582587f.js.map": "/wro2022-junior-generator/static/js/main.a582587f.js.map"
+    "main.0014d8e9.css.map": "/wro2022-junior-generator/static/css/main.0014d8e9.css.map",
+    "main.9dc6a029.js.map": "/wro2022-junior-generator/static/js/main.9dc6a029.js.map"
   },
   "entrypoints": [
-    "static/css/main.6995292d.css",
-    "static/js/main.a582587f.js"
+    "static/css/main.0014d8e9.css",
+    "static/js/main.9dc6a029.js"
   ]
 }
